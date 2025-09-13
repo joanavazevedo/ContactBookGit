@@ -70,6 +70,7 @@ public class ContactBook {
                 i++;
 
         }
+
         return contacts[i];
     }
     public boolean equalPhone (){

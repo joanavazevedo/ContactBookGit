@@ -63,7 +63,6 @@ public class ContactBook {
     public Contact getContact (int phone) {
         boolean found = false;
         int i = 0;
-        int result = -1;
         while (i<counter && !found) {
             if (contacts[i].getPhone() == phone)
                 found = true;
@@ -74,7 +73,6 @@ public class ContactBook {
         return contacts[i];
     }
     public boolean equalPhone (){
-
         boolean found = false;
         int i = 0;
         int k = 0;
